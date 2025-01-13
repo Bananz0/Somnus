@@ -20,7 +20,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         splashScreen.setOnExitAnimationListener { splashScreenViewProvider ->
-            // Example fade out
+
+            // fade out
             splashScreenViewProvider.iconView
                 .animate()
                 .alpha(0f)

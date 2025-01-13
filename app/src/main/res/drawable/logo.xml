@@ -1,0 +1,122 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="50dp"
+    android:height="50dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512"
+    tools:ignore="VectorRaster">
+
+
+  <!-- Group 1: Background elements / main shapes -->
+  <group
+      android:name="backgroundElements">
+
+    <!-- Top bar -->
+    <path
+        android:pathData="M39.9,103.87h144.06v24.01h-144.06z"
+        android:fillColor="#889EBD"/>
+
+    <!-- Big green background rectangle -->
+    <path
+        android:pathData="M7.89,127.88h496.23v248.12h-496.23z"
+        android:fillColor="#AACD4C"/>
+
+    <!-- Offset green shape -->
+    <path
+        android:pathData="M7.89,376l496.23,0l0,-248.12l-64.03,32.01l32.01,0l0,184.08l-408.19,0"
+        android:fillColor="#95C11F"/>
+
+    <!-- White rectangle (clock face background) -->
+    <path
+        android:pathData="M39.9,159.9h432.2v184.09h-432.2z"
+        android:fillColor="#FFFFFF"/>
+  </group>
+
+  <!-- Group 2: Outlines / borders -->
+  <group
+      android:name="outlines">
+
+    <!-- Black outline around the white rectangle -->
+    <path
+        android:pathData="M479.98,351.86H32.01V152.01h447.97v199.85H479.98z
+                              M47.78,336.1h416.43V167.78H47.78V336.1z"
+        android:fillColor="#1D1D1B"/>
+
+    <!-- Overall black outline / frame -->
+    <path
+        android:pathData="M512,120h-56.03V103.87h-15.77v16.13H423.96V103.87h-15.77v16.13h-16.25V103.87h-15.77v16.13H359.93V103.87h-15.77v16.13H191.85v-24.01H32.01v24.01H0v263.89h32.01v32.13h15.77v-32.13h416.43v32.13h15.77v-32.13H512V120z
+                              M47.78,111.75h128.3v8.24H47.78V111.75z
+                              M496.23,368.11H15.77V135.77h480.46V368.11z"
+        android:fillColor="#1D1D1B"/>
+  </group>
+
+  <!-- Group 3: Large digits / “HH:MM” sections -->
+  <group
+      android:name="largeDigits">
+
+    <!-- Left digit area -->
+    <path
+        android:pathData="M159.84,279.83h-47.78v-79.8h47.78V279.83z
+                              M127.82,264.06h16.25v-48.26h-16.25C127.82,215.8 127.82,264.06 127.82,264.06z"
+        android:fillColor="#1D1D1B"/>
+
+    <!-- Middle digit area -->
+    <path
+        android:pathData="M335.92,279.83h-47.78v-79.8h47.78V279.83z
+                              M303.9,264.06h16.25v-48.26h-16.25V264.06z"
+        android:fillColor="#1D1D1B"/>
+
+    <!-- Right digit area -->
+    <path
+        android:pathData="M399.95,279.83h-47.78v-79.8h47.78V279.83z
+                              M367.93,264.06h16.25v-48.26h-16.25V264.06z"
+        android:fillColor="#1D1D1B"/>
+
+    <path
+        android:pathData="M223.87,279.95l-15.77,0l0,-64.15l-32.13,0l0,-15.77l47.9,0z"
+        android:fillColor="#1D1D1B"/>
+
+    <!-- Top colon dot -->
+    <path
+        android:pathData="M248,216.04h16.01v15.77h-16.01z"
+        android:fillColor="#1D1D1B"/>
+
+    <!-- Bottom colon dot -->
+    <path
+        android:pathData="M248,248.05h16.01v15.77h-16.01z"
+        android:fillColor="#1D1D1B"/>
+  </group>
+
+  <!-- Group 5: Bottom indicators / small rectangles at the bottom -->
+  <group
+      android:name="bottomIndicators">
+
+    <!-- Left three small squares -->
+    <path
+        android:pathData="M63.91,312.09h16.01v15.77h-16.01z"
+        android:fillColor="#1D1D1B"/>
+    <path
+        android:pathData="M95.92,312.09h16.01v15.77h-16.01z"
+        android:fillColor="#1D1D1B"/>
+    <path
+        android:pathData="M127.94,312.09h16.01v15.77h-16.01z"
+        android:fillColor="#1D1D1B"/>
+
+    <!-- Right three small squares -->
+    <path
+        android:pathData="M368.05,312.09h16.01v15.77h-16.01z"
+        android:fillColor="#1D1D1B"/>
+    <path
+        android:pathData="M400.06,312.09h16.01v15.77h-16.01z"
+        android:fillColor="#1D1D1B"/>
+    <path
+        android:pathData="M432.08,312.09h16.01v15.77h-16.01z"
+        android:fillColor="#1D1D1B"/>
+
+    <!-- Long rectangle across bottom -->
+    <path
+        android:pathData="M167.96,312.09h176.08v15.77h-176.08z"
+        android:fillColor="#1D1D1B"/>
+  </group>
+
+</vector>
